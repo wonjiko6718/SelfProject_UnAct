@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Project_UnAct.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CF725D73-9387-46DE-ADA9-0173C37273FC}</UniqueIdentifier>
+      <UniqueIdentifier>{2B03E4F8-3BA1-424F-A84A-E084BC025111}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project_UnAct.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\Fem_mnq_v7_424.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B5A3285C-ADA3-40E6-97A8-B5FBD4957E72}</UniqueIdentifier>
+      <UniqueIdentifier>{4C424297-7C25-4304-9DCF-CBF8B3A1B281}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,12 +31,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Project_UnAct">
-      <UniqueIdentifier>{484D2BBE-DAF8-4BE1-B898-D05D1B651EB4}</UniqueIdentifier>
+      <UniqueIdentifier>{A7F86EDD-CA0C-4EC6-A05A-24DD4F12F253}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project_UnAct\MainCharacter.cpp">
+      <Filter>Source\Project_UnAct</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_UnAct\MainCharacter.h">
+      <Filter>Source\Project_UnAct</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Project_UnAct\Main_Floor.cpp">
       <Filter>Source\Project_UnAct</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Project_UnAct\Main_Floor.h">
+      <Filter>Source\Project_UnAct</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_UnAct\MCAnimInstance.cpp">
+      <Filter>Source\Project_UnAct</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_UnAct\MCAnimInstance.h">
       <Filter>Source\Project_UnAct</Filter>
     </ClInclude>
     <None Include="..\..\Source\Project_UnAct\Project_UnAct.Build.cs">
