@@ -2,12 +2,15 @@
 
 
 #include "MainCharacter.h"
+#include "MCAnimInstance.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	IsAttacking = false;
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SPRINGARM"));
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
@@ -53,6 +56,9 @@ AMainCharacter::AMainCharacter()
 void AMainCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
+	UMCAnim = Cast<UMCAnimInstance>(GetMesh()->GetAnimInstance());
+	UMCAnim->OnMontageEnded.AddDynamic(this, &AMainCharacter::OnAttackMontageEnded);
+
 }
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
@@ -78,6 +84,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &AMainCharacter::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &AMainCharacter::Turn);
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &AMainCharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &AMainCharacter::Attack);
 }
 void AMainCharacter::UpDown(float NewAxisValue)
 {
@@ -102,4 +109,13 @@ void AMainCharacter::Turn(float NewAxisValue)
 {
 	AddControllerYawInput(NewAxisValue);
 }
-
+void AMainCharacter::Attack()
+{
+	if (IsAttacking) return;
+	UMCAnim->PlayerAttackMontage();
+	IsAttacking = true;
+}
+void AMainCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted)
+{
+	IsAttacking = false;
+}

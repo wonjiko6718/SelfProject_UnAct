@@ -17,10 +17,13 @@ class PROJECT_UNACT_API UMCAnimInstance : public UAnimInstance
 public:
 	UMCAnimInstance();
 	virtual void NativeUpdateAnimation(float DeltaSeconds) override;
+	void PlayerAttackMontage();
 
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		float CurrentPawnSpeed;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		bool IsInAir;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+		UAnimMontage* AttackMontage;
 };

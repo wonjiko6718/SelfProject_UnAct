@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAnimMontage;
 #ifdef PROJECT_UNACT_MainCharacter_generated_h
 #error "MainCharacter.generated.h already included, missing '#pragma once' in MainCharacter.h"
 #endif
 #define PROJECT_UNACT_MainCharacter_generated_h
 
 #define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_SPARSE_DATA
-#define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_RPC_WRAPPERS
-#define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
+#define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
 #define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainCharacter(); \
@@ -58,7 +67,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMainCharacter)
 
 
-#define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(AMainCharacter, IsAttacking); } \
+	FORCEINLINE static uint32 __PPO__UMCAnim() { return STRUCT_OFFSET(AMainCharacter, UMCAnim); }
+
+
 #define Project_UnAct_Source_Project_UnAct_MainCharacter_h_9_PROLOG
 #define Project_UnAct_Source_Project_UnAct_MainCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -6,7 +6,14 @@
 UMCAnimInstance::UMCAnimInstance()
 {
 	CurrentPawnSpeed = 0.0f;
-	IsInAir = true;
+	IsInAir = false;
+	//AnimMontage'/Game/Animations/SK_Mannequin_Skeleton_Montage.SK_Mannequin_Skeleton_Montage'
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> ATTACK_MONTAGE(TEXT("/Game/Animations/SK_Mannequin_Skeleton_Montage.SK_Mannequin_Skeleton_Montage"));
+	if (ATTACK_MONTAGE.Succeeded())
+	{
+		AttackMontage = ATTACK_MONTAGE.Object;
+	}
+
 	UE_LOG(LogTemp, Warning, TEXT("Anim Instance Load Complete"));
 }
 
@@ -23,4 +30,8 @@ void UMCAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 			IsInAir = Character->GetMovementComponent()->IsFalling();
 		}
 	}
+}
+void UMCAnimInstance::PlayerAttackMontage()
+{
+	Montage_Play(AttackMontage, 1.0f);
 }
