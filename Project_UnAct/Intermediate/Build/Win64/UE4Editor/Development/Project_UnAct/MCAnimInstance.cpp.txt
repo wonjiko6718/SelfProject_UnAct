@@ -186,5 +186,3 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Inc\Project_UnAct\MCAnimInstance.generated.h
-C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Source\Project_UnAct\MainCharacter.h
-C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Inc\Project_UnAct\MainCharacter.generated.h

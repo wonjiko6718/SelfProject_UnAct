@@ -2,23 +2,25 @@
 
 
 #include "MCAnimInstance.h"
-#include "MainCharacter.h"
 
 UMCAnimInstance::UMCAnimInstance()
 {
 	CurrentPawnSpeed = 0.0f;
+	IsInAir = true;
+	UE_LOG(LogTemp, Warning, TEXT("Anim Instance Load Complete"));
 }
 
 void UMCAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
-{
+{;
 	Super::NativeUpdateAnimation(DeltaSeconds);
-	
 	auto Pawn = TryGetPawnOwner();
-	UE_LOG(LogTemp, Warning, TEXT("Auto Pawn: %s"), Pawn);
-	AMainCharacter* FindChar = Cast<AMainCharacter>(Pawn);
-	
-	if (::IsValid(FindChar))
+	if (::IsValid(Pawn))
 	{
-		CurrentPawnSpeed = FindChar->GetVelocity().Size();
+		CurrentPawnSpeed = Pawn->GetVelocity().Size();
+		auto Character = Cast<ACharacter>(Pawn);
+		if (Character) // get Character Is In Air
+		{
+			IsInAir = Character->GetMovementComponent()->IsFalling();
+		}
 	}
 }

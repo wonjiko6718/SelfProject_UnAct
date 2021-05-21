@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMCAnimInstance); \
 
 
 #define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UMCAnimInstance, CurrentPawnSpeed); }
+	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UMCAnimInstance, CurrentPawnSpeed); } \
+	FORCEINLINE static uint32 __PPO__IsInAir() { return STRUCT_OFFSET(UMCAnimInstance, IsInAir); }
 
 
 #define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_12_PROLOG

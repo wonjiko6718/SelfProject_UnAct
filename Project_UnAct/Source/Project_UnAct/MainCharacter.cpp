@@ -40,9 +40,20 @@ AMainCharacter::AMainCharacter()
 	{
 		GetMesh()->SetSkeletalMesh(MC_SKelMesh.Object);
 	}
+	//Animation SetUp
+	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+	//AnimBlueprint'/Game/Blueprints/MCAnim_BP.MCAnim_BP'
+	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> MC_Anim_BP(TEXT("/Game/Blueprints/MCAnim_BP.MCAnim_BP"));
+	if (MC_Anim_BP.Succeeded())
+	{
+		GetMesh()->SetAnimInstanceClass(MC_Anim_BP.Object->GetAnimBlueprintGeneratedClass());
+	}
 
 }
-
+void AMainCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+}
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
