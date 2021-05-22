@@ -20,8 +20,72 @@ void EmptyLinkFunctionForGeneratedCodeMCAnimInstance() {}
 	UPackage* Z_Construct_UPackage__Script_Project_UnAct();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UMCAnimInstance::execAnimNotify_NextAttackCheck)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AnimNotify_NextAttackCheck();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UMCAnimInstance::execAnimNotify_AttackHitCheck)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AnimNotify_AttackHitCheck();
+		P_NATIVE_END;
+	}
 	void UMCAnimInstance::StaticRegisterNativesUMCAnimInstance()
 	{
+		UClass* Class = UMCAnimInstance::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "AnimNotify_AttackHitCheck", &UMCAnimInstance::execAnimNotify_AttackHitCheck },
+			{ "AnimNotify_NextAttackCheck", &UMCAnimInstance::execAnimNotify_NextAttackCheck },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MCAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMCAnimInstance, nullptr, "AnimNotify_AttackHitCheck", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MCAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMCAnimInstance, nullptr, "AnimNotify_NextAttackCheck", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UMCAnimInstance_NoRegister()
 	{
@@ -30,6 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeMCAnimInstance() {}
 	struct Z_Construct_UClass_UMCAnimInstance_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -54,9 +119,13 @@ void EmptyLinkFunctionForGeneratedCodeMCAnimInstance() {}
 		(UObject* (*)())Z_Construct_UClass_UAnimInstance,
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_UnAct,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UMCAnimInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMCAnimInstance_AnimNotify_AttackHitCheck, "AnimNotify_AttackHitCheck" }, // 2947938769
+		{ &Z_Construct_UFunction_UMCAnimInstance_AnimNotify_NextAttackCheck, "AnimNotify_NextAttackCheck" }, // 973368324
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMCAnimInstance_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n **/" },
 		{ "HideCategories", "AnimInstance" },
 		{ "IncludePath", "MCAnimInstance.h" },
 		{ "ModuleRelativePath", "MCAnimInstance.h" },
@@ -103,11 +172,11 @@ void EmptyLinkFunctionForGeneratedCodeMCAnimInstance() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_UMCAnimInstance_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_UMCAnimInstance_Statics::PropPointers),
 		0,
 		0x009000A8u,
@@ -122,7 +191,7 @@ void EmptyLinkFunctionForGeneratedCodeMCAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMCAnimInstance, 436358002);
+	IMPLEMENT_CLASS(UMCAnimInstance, 209578863);
 	template<> PROJECT_UNACT_API UClass* StaticClass<UMCAnimInstance>()
 	{
 		return UMCAnimInstance::StaticClass();

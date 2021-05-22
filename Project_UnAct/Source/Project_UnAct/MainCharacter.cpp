@@ -11,6 +11,8 @@ AMainCharacter::AMainCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	IsAttacking = false;
+	MaxCombo = 3;
+	AttackEndComboState();
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SPRINGARM"));
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
@@ -58,6 +60,15 @@ void AMainCharacter::PostInitializeComponents()
 	Super::PostInitializeComponents();
 	UMCAnim = Cast<UMCAnimInstance>(GetMesh()->GetAnimInstance());
 	UMCAnim->OnMontageEnded.AddDynamic(this, &AMainCharacter::OnAttackMontageEnded);
+	UMCAnim->OnNextAttackCheck.AddLambda([this]()->void {
+		CanNextCombo = false;
+
+		if (IsComboInputOn)
+		{
+			AttackStartComboState();
+			UMCAnim->JumpToAttackMontageSection(CurrentCombo);
+		}
+		});
 
 }
 // Called when the game starts or when spawned
@@ -111,11 +122,35 @@ void AMainCharacter::Turn(float NewAxisValue)
 }
 void AMainCharacter::Attack()
 {
-	if (IsAttacking) return;
-	UMCAnim->PlayerAttackMontage();
-	IsAttacking = true;
+	if (IsAttacking)
+	{
+		if (CanNextCombo)
+		{
+			IsComboInputOn = true;
+		}
+	}
+	else
+	{
+		AttackStartComboState();
+		UMCAnim->PlayerAttackMontage();
+		UMCAnim->JumpToAttackMontageSection(CurrentCombo);
+		IsAttacking = true;
+	}
 }
 void AMainCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted)
 {
 	IsAttacking = false;
+	AttackEndComboState();
+}
+void AMainCharacter::AttackStartComboState()
+{
+	CanNextCombo = true;
+	IsComboInputOn = false;
+	CurrentCombo = FMath::Clamp<int32>(CurrentCombo += 1, 1, MaxCombo);
+}
+void AMainCharacter::AttackEndComboState()
+{
+	IsComboInputOn = false;
+	CanNextCombo = false;
+	CurrentCombo = 0;
 }

@@ -18,7 +18,7 @@ UMCAnimInstance::UMCAnimInstance()
 }
 
 void UMCAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
-{;
+{
 	Super::NativeUpdateAnimation(DeltaSeconds);
 	auto Pawn = TryGetPawnOwner();
 	if (::IsValid(Pawn))
@@ -34,4 +34,21 @@ void UMCAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 void UMCAnimInstance::PlayerAttackMontage()
 {
 	Montage_Play(AttackMontage, 1.0f);
+}
+void UMCAnimInstance::JumpToAttackMontageSection(int32 NewSection)
+{
+	Montage_JumpToSection(GetAttackMontageSectionName(NewSection), AttackMontage);
+}
+void UMCAnimInstance::AnimNotify_AttackHitCheck()
+{
+	OnAttackHitCheck.Broadcast();
+  //OnAttackHitCheck
+}
+void UMCAnimInstance::AnimNotify_NextAttackCheck()
+{
+	OnNextAttackCheck.Broadcast();
+}
+FName UMCAnimInstance::GetAttackMontageSectionName(int32 Section)
+{
+	return FName(*FString::Printf(TEXT("Attack%d"), Section));
 }

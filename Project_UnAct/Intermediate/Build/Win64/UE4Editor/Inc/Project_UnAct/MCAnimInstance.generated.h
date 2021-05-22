@@ -13,10 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECT_UNACT_MCAnimInstance_generated_h
 
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_SPARSE_DATA
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_RPC_WRAPPERS
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_SPARSE_DATA
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_NextAttackCheck); \
+	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck);
+
+
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_NextAttackCheck); \
+	DECLARE_FUNCTION(execAnimNotify_AttackHitCheck);
+
+
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMCAnimInstance(); \
 	friend struct Z_Construct_UClass_UMCAnimInstance_Statics; \
@@ -25,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(UMCAnimInstance)
 
 
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_INCLASS \
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUMCAnimInstance(); \
 	friend struct Z_Construct_UClass_UMCAnimInstance_Statics; \
@@ -34,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(UMCAnimInstance)
 
 
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_STANDARD_CONSTRUCTORS \
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMCAnimInstance(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMCAnimInstance) \
@@ -47,7 +57,7 @@ private: \
 public:
 
 
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMCAnimInstance(UMCAnimInstance&&); \
@@ -58,33 +68,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMCAnimInstance); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMCAnimInstance)
 
 
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UMCAnimInstance, CurrentPawnSpeed); } \
 	FORCEINLINE static uint32 __PPO__IsInAir() { return STRUCT_OFFSET(UMCAnimInstance, IsInAir); } \
 	FORCEINLINE static uint32 __PPO__AttackMontage() { return STRUCT_OFFSET(UMCAnimInstance, AttackMontage); }
 
 
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_12_PROLOG
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_GENERATED_BODY_LEGACY \
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_14_PROLOG
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_SPARSE_DATA \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_RPC_WRAPPERS \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_INCLASS \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_STANDARD_CONSTRUCTORS \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_PRIVATE_PROPERTY_OFFSET \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_SPARSE_DATA \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_RPC_WRAPPERS \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_INCLASS \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_GENERATED_BODY \
+#define Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_SPARSE_DATA \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_INCLASS_NO_PURE_DECLS \
-	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_15_ENHANCED_CONSTRUCTORS \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_PRIVATE_PROPERTY_OFFSET \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_SPARSE_DATA \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_INCLASS_NO_PURE_DECLS \
+	Project_UnAct_Source_Project_UnAct_MCAnimInstance_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
