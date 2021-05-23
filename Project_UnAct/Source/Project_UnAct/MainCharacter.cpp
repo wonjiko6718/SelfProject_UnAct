@@ -19,11 +19,12 @@ AMainCharacter::AMainCharacter()
 
 	SpringArm->SetupAttachment(GetCapsuleComponent());
 	Camera->SetupAttachment(SpringArm);
+	GetCapsuleComponent()->SetCollisionProfileName(TEXT("MainCharacter"));
 
 	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -88.0f), FRotator(0.0f, -90.0f, 0.0f));
 
 	PlayerSpeed = 1.0f;
-
+	
 	SpringArm->TargetArmLength = 400.0f;
 	SpringArm->SetRelativeRotation(FRotator::ZeroRotator);
 	SpringArm->bUsePawnControlRotation = true;
@@ -55,6 +56,11 @@ AMainCharacter::AMainCharacter()
 	}
 
 }
+/**Trace Channel :
+DefaultChannelResponses=(Channel=ECC_GameTraceChannel1,DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False,Name="MainCharacter") - Main Char- ECC 1
+DefaultChannelResponses=(Channel=ECC_GameTraceChannel2,DefaultResponse=ECR_Ignore,bTraceType=True,bStaticObject=False,Name="Attack") - Attack - ECC 2
+DefaultChannelResponses=(Channel=ECC_GameTraceChannel3,DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False,Name="Monster") - Monster - ECC 3
+**/
 void AMainCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
