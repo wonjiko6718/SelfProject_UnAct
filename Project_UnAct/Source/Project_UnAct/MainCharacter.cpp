@@ -65,6 +65,7 @@ void AMainCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 	UMCAnim = Cast<UMCAnimInstance>(GetMesh()->GetAnimInstance());
+	UMCAnim->OnAttackHitCheck.AddUObject(this, &AMainCharacter::AttackCheck);
 	UMCAnim->OnMontageEnded.AddDynamic(this, &AMainCharacter::OnAttackMontageEnded);
 	UMCAnim->OnNextAttackCheck.AddLambda([this]()->void {
 		CanNextCombo = false;
@@ -159,4 +160,29 @@ void AMainCharacter::AttackEndComboState()
 	IsComboInputOn = false;
 	CanNextCombo = false;
 	CurrentCombo = 0;
+}
+/**Trace Channel :
+DefaultChannelResponses=(Channel=ECC_GameTraceChannel1,DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False,Name="MainCharacter") - Main Char- ECC 1
+DefaultChannelResponses=(Channel=ECC_GameTraceChannel2,DefaultResponse=ECR_Ignore,bTraceType=True,bStaticObject=False,Name="Attack") - Attack - ECC 2
+DefaultChannelResponses=(Channel=ECC_GameTraceChannel3,DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False,Name="Monster") - Monster - ECC 3
+**/
+void AMainCharacter::AttackCheck()
+{
+	FHitResult HitResult;
+	FCollisionQueryParams Params(NAME_None, false, this);
+	bool bResult = GetWorld()->SweepSingleByChannel(
+		HitResult,
+		GetActorLocation(),
+		GetActorLocation() + GetActorForwardVector() * 200.0f,
+		FQuat::Identity,
+		ECollisionChannel::ECC_GameTraceChannel2,
+		FCollisionShape::MakeSphere(50.0f),
+		Params);
+	if (bResult)
+	{
+		if (HitResult.Actor.IsValid())
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Attack Is Valid, Hit Actor Name : %s"), *HitResult.Actor->GetName());
+		}
+	}
 }
