@@ -188,3 +188,4 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Inc\Project_UnAct\MainCharacter.generated.h
 C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Source\Project_UnAct\MCAnimInstance.h
 C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Inc\Project_UnAct\MCAnimInstance.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

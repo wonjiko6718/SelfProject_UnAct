@@ -1,17 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct).
-  Parsing headers for Project_UnActEditor
-    Running UnrealHeaderTool "C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Project_UnAct.uproject" "C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\Project_UnActEditor\Development\Project_UnActEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\wonji\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for Project_UnActEditor in 6.1823461 seconds
   Building Project_UnActEditor...
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 12 processes...
-    [1/6] Project_UnActGameMode.cpp
-    [2/6] MainCharacter.gen.cpp
-    [3/6] MainCharacter.cpp
-    [4/6] UE4Editor-Project_UnAct-0056.lib
-       C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0056.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0056.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [5/6] UE4Editor-Project_UnAct-0056.dll
-       C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0056.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0056.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [6/6] Project_UnActEditor.target
-  Total time in Parallel executor: 12.20 seconds
-  Total execution time: 19.10 seconds
+  Building 4 actions with 12 processes...
+    [1/4] MainCharacter.cpp
+    [2/4] UE4Editor-Project_UnAct-0060.lib
+       C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0060.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0060.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-Project_UnAct-0060.dll
+       C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0060.suppressed.lib ���̺귯�� �� C:\Users\wonji\Desktop\UnrealProjects\SelfProject_UnAct\Project_UnAct\Intermediate\Build\Win64\UE4Editor\Development\Project_UnAct\UE4Editor-Project_UnAct-0060.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/4] Project_UnActEditor.target
+  Total time in Parallel executor: 4.54 seconds
+  Total execution time: 5.28 seconds

@@ -57,6 +57,10 @@ private:
 		int32 CurrentCombo;
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		int32 MaxCombo;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRange;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		float AttackRadius;
 	UPROPERTY()
 		class UMCAnimInstance* UMCAnim;
 };
