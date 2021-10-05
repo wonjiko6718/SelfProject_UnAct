@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Project_UnAct",
-			"Path": "C:\\Users\\wonji\\Desktop\\UnrealProjects\\SelfProject_UnAct\\Project_UnAct\\Source\\Project_UnAct.Target.cs",
+			"Path": "C:\\Users\\wonji\\Desktop\\Unreal_Projects\\SelfProject_UnAct\\Project_UnAct\\Source\\Project_UnAct.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Project_UnActEditor",
-			"Path": "C:\\Users\\wonji\\Desktop\\UnrealProjects\\SelfProject_UnAct\\Project_UnAct\\Source\\Project_UnActEditor.Target.cs",
+			"Path": "C:\\Users\\wonji\\Desktop\\Unreal_Projects\\SelfProject_UnAct\\Project_UnAct\\Source\\Project_UnActEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
