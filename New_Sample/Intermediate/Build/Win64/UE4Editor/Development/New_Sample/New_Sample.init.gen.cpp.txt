@@ -1,0 +1,3 @@
+C:\Users\wonji\Desktop\Unreal_Projects\SelfProject_UnAct\New_Sample\Intermediate\Build\Win64\UE4Editor\Development\New_Sample\Definitions.New_Sample.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
