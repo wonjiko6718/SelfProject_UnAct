@@ -117,7 +117,6 @@ void ANew_SampleCharacter::MoveForward(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
-
 void ANew_SampleCharacter::MoveRight(float Value)
 {
 	if ( (Controller != NULL) && (Value != 0.0f) )

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\New_Sample.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3C34D8A5-36F5-4ACF-873B-A9BE57D2C707}</UniqueIdentifier>
+      <UniqueIdentifier>{69F6A55B-78C4-48A1-89D5-C76ED483529B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\New_Sample.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CE224365-3650-4343-86AE-049EAADBDCD1}</UniqueIdentifier>
+      <UniqueIdentifier>{3CB90DC9-B066-42A4-BF45-32DE83080304}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\New_Sample">
-      <UniqueIdentifier>{EC7C7D24-BC59-4AF1-AADB-F6798C077B64}</UniqueIdentifier>
+      <UniqueIdentifier>{5EFCF989-4FFE-4471-9B38-24E578E9A73D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\New_Sample\New_Sample.Build.cs">
       <Filter>Source\New_Sample</Filter>
@@ -51,6 +51,18 @@
       <Filter>Source\New_Sample</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\New_Sample\New_SampleGameMode.h">
+      <Filter>Source\New_Sample</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\New_Sample\User_Character.cpp">
+      <Filter>Source\New_Sample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\New_Sample\User_Character.h">
+      <Filter>Source\New_Sample</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\New_Sample\User_Character_Animinstance.cpp">
+      <Filter>Source\New_Sample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\New_Sample\User_Character_Animinstance.h">
       <Filter>Source\New_Sample</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,2115 @@
+﻿Log file open, 10/26/21 09:28:10
+LogInit: Display: Running engine for game: New_Sample
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.289562
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MegascansPlugin
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin DatabaseSupport
+LogPluginManager: Mounting plugin SQLiteCore
+LogPluginManager: Mounting plugin SQLiteSupport
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+[2021.10.26-00.28.11:422][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.10.26-00.28.11:422][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.10.26-00.28.11:423][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+[2021.10.26-00.28.11:423][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+[2021.10.26-00.28.11:432][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.26-00.28.11:433][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.10.26-00.28.11:434][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.10.26-00.28.11:435][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.26-00.28.11:436][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.10.26-00.28.11:437][  0]LogHAL: Display: Platform has ~ 16 GB [17073135616 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.10.26-00.28.11:437][  0]LogInit: Going up to parent DeviceProfile []
+[2021.10.26-00.28.11:438][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.26-00.28.11:438][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Scalability.ini]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.10.26-00.28.11:439][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.10.26-00.28.11:440][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.10.26-00.28.11:440][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.10.26-00.28.11:440][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.10.26-00.28.11:440][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Config/Windows/Engine.ini]
+[2021.10.26-00.28.11:441][  0]LogInit: Computer: DESKTOP-S8ROBRU
+[2021.10.26-00.28.11:441][  0]LogInit: User: wonji
+[2021.10.26-00.28.11:441][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.10.26-00.28.11:441][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.10.26-00.28.11:441][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.10.26-00.28.11:441][  0]LogMemory: Platform Memory Stats for Windows
+[2021.10.26-00.28.11:441][  0]LogMemory: Process Physical Memory: 122.78 MB used, 122.78 MB peak
+[2021.10.26-00.28.11:441][  0]LogMemory: Process Virtual Memory: 100.53 MB used, 100.53 MB peak
+[2021.10.26-00.28.11:442][  0]LogMemory: Physical Memory: 5072.88 MB used,  11209.33 MB free, 16282.21 MB total
+[2021.10.26-00.28.11:442][  0]LogMemory: Virtual Memory: 5174.13 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2021.10.26-00.28.11:445][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.10.26-00.28.11:675][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.10.26-00.28.11:678][  0]LogInit: Using OS detected language (ko-KR).
+[2021.10.26-00.28.11:678][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.10.26-00.28.11:699][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.10.26-00.28.11:914][  0]LogInit: Setting process to per monitor DPI aware
+[2021.10.26-00.28.12:048][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.10.26-00.28.12:048][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.10.26-00.28.14:689][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.26-00.28.14:689][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.10.26-00.28.14:689][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.10.26-00.28.14:689][  0]LogD3D11RHI: D3D11 adapters:
+[2021.10.26-00.28.14:839][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (Feature Level 11_0)
+[2021.10.26-00.28.14:839][  0]LogD3D11RHI:       8010/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.10.26-00.28.14:871][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.10.26-00.28.14:871][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.10.26-00.28.14:873][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.10.26-00.28.14:873][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.10.26-00.28.14:873][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.10.26-00.28.14:880][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.10.26-00.28.14:880][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2021.10.26-00.28.14:880][  0]LogWindows: EnumDisplayDevices:
+[2021.10.26-00.28.14:880][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.10.26-00.28.14:881][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.10.26-00.28.14:881][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.10.26-00.28.14:882][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:1)
+[2021.10.26-00.28.14:882][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2021.10.26-00.28.14:882][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2021.10.26-00.28.14:883][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2021.10.26-00.28.14:883][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.10.26-00.28.14:883][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 with Max-Q Design
+[2021.10.26-00.28.14:883][  0]LogD3D11RHI:   Driver Version: 460.79 (internal:27.21.14.6079, unified:460.79)
+[2021.10.26-00.28.14:883][  0]LogD3D11RHI:      Driver Date: 12-3-2020
+[2021.10.26-00.28.14:883][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2021.10.26-00.28.14:972][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.10.26-00.28.14:973][  0]LogD3D11RHI: Async texture creation enabled
+[2021.10.26-00.28.14:973][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.10.26-00.28.15:012][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.10.26-00.28.16:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.10.26-00.28.16:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.10.26-00.28.16:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.10.26-00.28.16:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.10.26-00.28.16:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.10.26-00.28.16:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.10.26-00.28.16:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.10.26-00.28.16:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.10.26-00.28.16:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.10.26-00.28.16:175][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.10.26-00.28.16:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.10.26-00.28.16:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.10.26-00.28.16:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.10.26-00.28.16:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.10.26-00.28.16:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.10.26-00.28.16:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.10.26-00.28.16:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.10.26-00.28.16:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.10.26-00.28.16:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.10.26-00.28.16:286][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.10.26-00.28.16:340][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.10.26-00.28.16:570][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Intermediate/Shaders/WorkingDirectory/21040/).
+[2021.10.26-00.28.16:570][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wonji/AppData/Local/Temp/UnrealShaderWorkingDir/4A674F9241A1F80F858F3B9D6CB817E0/'.
+[2021.10.26-00.28.16:571][  0]LogXGEController: Cleaning working directory: C:/Users/wonji/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.10.26-00.28.16:572][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.10.26-00.28.16:572][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.10.26-00.28.16:572][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.10.26-00.28.19:408][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.10.26-00.28.19:501][  0]LogDerivedDataCache: Loaded boot cache 0.09s 99MB C:/Users/wonji/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.10.26-00.28.19:501][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wonji/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.10.26-00.28.19:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.10.26-00.28.19:501][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.10.26-00.28.19:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.26-00.28.19:501][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.10.26-00.28.19:521][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.10.26-00.28.19:522][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.26-00.28.19:522][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.10.26-00.28.19:524][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wonji/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.10.26-00.28.19:524][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.10.26-00.28.19:524][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.10.26-00.28.19:577][  0]LogSlate: Using FreeType 2.10.0
+[2021.10.26-00.28.19:588][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.10.26-00.28.19:628][  0]LogAssetRegistry: FAssetRegistry took 0.0052 seconds to start up
+[2021.10.26-00.28.20:086][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.26-00.28.20:367][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.10.26-00.28.20:367][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.10.26-00.28.20:367][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.10.26-00.28.20:367][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.10.26-00.28.20:367][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.10.26-00.28.20:435][  0]LogNetVersion: New_Sample 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4253105150)
+[2021.10.26-00.28.21:816][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FFDA9F6980), frame # 0
+[2021.10.26-00.28.21:816][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FFDA8B6AC0), frame # 0
+[2021.10.26-00.28.21:820][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FFDA9FE600), frame # 0
+[2021.10.26-00.28.21:916][  0]LogPackageLocalizationCache: Processed 21 localized package path(s) for 1 prioritized culture(s) in 0.061637 seconds
+[2021.10.26-00.28.21:921][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.10.26-00.28.21:921][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.10.26-00.28.21:921][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.10.26-00.28.22:735][  0]LogPython: Using Python 2.7.14
+[2021.10.26-00.28.24:160][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.10.26-00.28.24:166][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.10.26-00.28.24:286][  0]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.28.24:464][  0]LogTemp: Warning: AnimClear
+[2021.10.26-00.28.25:649][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.26-00.28.25:649][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.26-00.28.25:658][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.26-00.28.25:664][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.26-00.28.25:675][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.26-00.28.26:266][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.10.26-00.28.26:310][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.26-00.28.26:310][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.26-00.28.26:442][  0]LogOcInput: OculusInput pre-init called
+[2021.10.26-00.28.26:461][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.10.26-00.28.26:461][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.10.26-00.28.27:043][  0]LogEngine: Initializing Engine...
+[2021.10.26-00.28.27:047][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.26-00.28.27:047][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.10.26-00.28.27:049][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.10.26-00.28.27:382][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.10.26-00.28.27:411][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.10.26-00.28.27:411][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FFEAD32800), frame # 0
+[2021.10.26-00.28.27:411][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FFEAD95300), frame # 0
+[2021.10.26-00.28.27:420][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.28.27:420][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.28.27:420][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.28.27:420][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.28.27:420][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.28.27:420][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.28.27:420][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.28.27:420][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.28.27:421][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.28.27:421][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.28.27:455][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.28.27:455][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.28.27:623][  0]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.28.27:624][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.28.27:653][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.28.27:653][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.28.27:654][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.28.27:656][  0]LogInit: FAudioDevice initialized.
+[2021.10.26-00.28.27:656][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.10.26-00.28.27:720][  0]LogDerivedDataCache: Saved boot cache 0.06s 99MB C:/Users/wonji/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.10.26-00.28.27:720][  0]LogInit: Texture streaming: Enabled
+[2021.10.26-00.28.27:751][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.10.26-00.28.27:751][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.10.26-00.28.27:757][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.10.26-00.28.27:820][  0]LogInit: Transaction tracking system initialized
+[2021.10.26-00.28.27:877][  0]BlueprintLog: New page: 에디터 로드
+[2021.10.26-00.28.28:068][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.10.26-00.28.28:600][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.10.26-00.28.28:600][  0]LogCook: Display: Mobile HDR setting 1
+[2021.10.26-00.28.28:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Content/' took 0.02s
+[2021.10.26-00.28.29:233][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.10.26-00.28.29:234][  0]LogUnrealEdMisc: Loading editor; pre map load, took 24.313
+[2021.10.26-00.28.29:235][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.26-00.28.29:243][  0]LightingResults: New page: 라이팅 빌드
+[2021.10.26-00.28.29:248][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.28.29:248][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.28.29:249][  0]MapCheck: New page: 맵 체크
+[2021.10.26-00.28.29:249][  0]LightingResults: New page: 라이팅 빌드
+[2021.10.26-00.28.29:264][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FFEAD32800), frame # 0
+[2021.10.26-00.28.29:264][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FFEAD95300), frame # 0
+[2021.10.26-00.28.29:267][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.10.26-00.28.29:790][  0]LogLinker: Warning: Asset '../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Content/MSPresets/MSTextures/Metalness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.10.26-00.28.30:014][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.28.30:014][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FFCEA38600), frame # 0
+[2021.10.26-00.28.30:014][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FFCEA22E80), frame # 0
+[2021.10.26-00.28.30:046][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.26-00.28.30:063][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.10.26-00.28.30:065][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.26-00.28.30:065][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.371ms.
+[2021.10.26-00.28.30:065][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.831
+[2021.10.26-00.28.30:084][  0]LogUnrealEdMisc: Total Editor Startup Time, took 25.164
+[2021.10.26-00.28.30:257][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.28.30:264][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.28.30:270][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.28.30:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.28.30:293][  0]LogCollectionManager: Loaded 0 collections in 0.001801 seconds
+[2021.10.26-00.28.30:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/Collections/' took 0.00s
+[2021.10.26-00.28.30:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Content/Developers/wonji/Collections/' took 0.00s
+[2021.10.26-00.28.30:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Content/Collections/' took 0.00s
+[2021.10.26-00.28.30:320][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.28.30:328][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.10.26-00.28.30:783][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.10.26-00.28.30:791][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.10.26-00.28.30:893][  0]LogSlate: Took 0.008169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.10.26-00.28.30:906][  0]LogSlate: Took 0.011074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.10.26-00.28.30:917][  0]LogSlate: Took 0.010504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.10.26-00.28.30:925][  0]LogSlate: Took 0.008008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.10.26-00.28.30:938][  0]LogSlate: Took 0.007707 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.10.26-00.28.30:947][  0]LogSlate: Took 0.008648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.10.26-00.28.30:998][  0]LogSlate: Took 0.009973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.10.26-00.28.31:125][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.10.26-00.28.31:265][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.10.26-00.28.31:265][  0]LogLoad: (Engine Initialization) Total time: 26.35 seconds
+[2021.10.26-00.28.31:265][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.10.26-00.28.31:330][  0]LogAssetRegistry: Asset discovery search completed in 11.7031 seconds
+[2021.10.26-00.28.31:333][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2021.10.26-00.28.31:337][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.10.26-00.28.38:663][ 22]LogSlate: Took 0.005451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.26-00.28.38:673][ 23]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.28.38:673][ 23]LogTemp: Warning: AnimClear
+[2021.10.26-00.28.39:766][ 77]LogSlate: Took 0.000780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.26-00.28.39:781][ 77]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/New_Sample.User_Character
+[2021.10.26-00.30.57:719][467]LogHotReload: New module detected: UE4Editor-New_Sample-0003.dll
+[2021.10.26-00.30.58:740][471]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.30.58:792][471]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.30.58:792][471]LogTemp: Warning: AnimClear
+[2021.10.26-00.30.58:794][471]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.30.58:801][471]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.30.58:850][471]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.30.58:859][471]Display: HotReload took  0.1s.
+[2021.10.26-00.31.01:160][536]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.31.01:181][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.31.01:184][536]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:31:01)
+[2021.10.26-00.31.01:187][536]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.10.26-00.31.01:188][536]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.10.26-00.31.01:189][536]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.31.01:208][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019282s)
+[2021.10.26-00.31.01:210][536]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.31.01:210][536]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FF95370600), frame # 536
+[2021.10.26-00.31.01:210][536]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FF9952EE80), frame # 536
+[2021.10.26-00.31.01:210][536]LogPlayLevel: PIE: World Init took: (0.001940s)
+[2021.10.26-00.31.01:211][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021784s)
+[2021.10.26-00.31.01:235][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.10.26-00.31.01:243][536]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.31.01:243][536]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.31.01:243][536]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.31.01:243][536]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.31.01:243][536]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.31.01:243][536]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.31.01:243][536]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.31.01:243][536]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.31.01:244][536]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.31.01:244][536]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.31.01:249][536]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.31.01:249][536]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.31.01:272][536]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.31.01:272][536]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.31.01:272][536]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.31.01:272][536]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.31.01:272][536]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.31.01:285][536]LogInit: FAudioDevice initialized.
+[2021.10.26-00.31.01:301][536]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.31.01:315][536]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.31.01
+[2021.10.26-00.31.01:318][536]LogWorld: Bringing up level for play took: 0.002816
+[2021.10.26-00.31.01:319][536]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.10.26-00.31.01:393][536]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.10.26-00.31.01:393][536]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.31.01:393][536]LogTemp: Warning: AnimClear
+[2021.10.26-00.31.01:418][536]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.31.01:420][536]PIE: 에디터에서 플레이 총 시작 시간 0.247초입니다.
+[2021.10.26-00.31.03:539][662]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.31.04:441][716]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.31.04:443][716]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.31.04:444][716]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.31.05:141][758]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.31.05:424][775]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.31.05:424][775]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.31.05:424][775]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.31.06:259][825]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.31.06:259][825]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.31.06:259][825]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.31.06:559][843]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.31.06:559][843]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.31.06:775][856]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.31.06:775][856]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.31.08:158][939]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.31.08:742][974]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.31.09:392][ 13]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.31.09:392][ 13]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.31.09:392][ 13]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.31.12:222][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.31.12:222][180]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.31.12:226][180]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.31.12:227][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.31.12:249][180]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.31.12:254][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.31.12:342][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.31.12:348][180]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FF95370600), frame # 1180
+[2021.10.26-00.31.12:348][180]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FF9952EE80), frame # 1180
+[2021.10.26-00.31.12:352][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.10.26-00.31.12:408][181]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.10.26-00.32.16:767][720]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.32.16:778][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.32.16:778][720]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:32:16)
+[2021.10.26-00.32.16:778][720]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.32.16:788][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009728s)
+[2021.10.26-00.32.16:789][720]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.32.16:789][720]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FF95797800), frame # 1720
+[2021.10.26-00.32.16:789][720]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FF95CB4180), frame # 1720
+[2021.10.26-00.32.16:790][720]LogPlayLevel: PIE: World Init took: (0.002048s)
+[2021.10.26-00.32.16:790][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011887s)
+[2021.10.26-00.32.16:801][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.10.26-00.32.16:803][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.32.16:804][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.32.16:804][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.32.16:804][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.32.16:804][720]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.32.16:804][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.32.16:804][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.32.16:804][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.32.16:804][720]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.32.16:804][720]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.32.16:810][720]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.32.16:810][720]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.32.16:832][720]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.32.16:833][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.32.16:833][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.32.16:833][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.32.16:833][720]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.32.16:845][720]LogInit: FAudioDevice initialized.
+[2021.10.26-00.32.16:852][720]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.32.16:853][720]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.32.16
+[2021.10.26-00.32.16:853][720]LogWorld: Bringing up level for play took: 0.000515
+[2021.10.26-00.32.16:853][720]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.10.26-00.32.16:855][720]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.32.16:855][720]LogTemp: Warning: AnimClear
+[2021.10.26-00.32.16:859][720]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.32.16:860][720]PIE: 에디터에서 플레이 총 시작 시간 0.083초입니다.
+[2021.10.26-00.32.22:320][971]LogSlate: Took 0.005045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.26-00.32.37:102][762]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.32.37:778][802]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.37:779][802]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.37:779][802]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.32.38:216][822]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.38:216][822]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.38:441][833]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.38:441][833]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.39:671][896]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.32.40:249][924]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.32.40:911][955]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.32.40:911][955]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.32.40:911][955]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.32.43:634][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.32.43:634][ 43]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.32.43:634][ 43]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.32.43:635][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.32.43:654][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.32.43:658][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.32.43:694][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.32.43:722][ 43]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FF95CB4180), frame # 3043
+[2021.10.26-00.32.43:722][ 43]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FF95797800), frame # 3043
+[2021.10.26-00.32.43:725][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.10.26-00.32.43:808][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.10.26-00.32.44:872][106]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.32.44:886][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.32.44:886][106]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:32:44)
+[2021.10.26-00.32.44:886][106]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.32.44:895][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008974s)
+[2021.10.26-00.32.44:895][106]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.32.44:895][106]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FFFF517400), frame # 3106
+[2021.10.26-00.32.44:895][106]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FF88E97740), frame # 3106
+[2021.10.26-00.32.44:895][106]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2021.10.26-00.32.44:895][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010026s)
+[2021.10.26-00.32.44:912][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.10.26-00.32.44:914][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.32.44:914][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.32.44:914][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.32.44:914][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.32.44:914][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.32.44:914][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.32.44:915][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.32.44:915][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.32.44:915][106]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.32.44:915][106]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.32.44:920][106]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.32.44:920][106]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.32.44:942][106]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.32.44:942][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.32.44:942][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.32.44:942][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.32.44:942][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.32.44:954][106]LogInit: FAudioDevice initialized.
+[2021.10.26-00.32.44:964][106]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.32.44:965][106]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.32.44
+[2021.10.26-00.32.44:965][106]LogWorld: Bringing up level for play took: 0.000510
+[2021.10.26-00.32.44:966][106]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.10.26-00.32.44:967][106]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.32.44:967][106]LogTemp: Warning: AnimClear
+[2021.10.26-00.32.44:971][106]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.32.44:972][106]PIE: 에디터에서 플레이 총 시작 시간 0.088초입니다.
+[2021.10.26-00.32.49:381][326]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.32.49:997][363]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.10.26-00.32.50:289][376]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.50:289][376]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.50:290][376]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.32.50:971][415]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.32.51:259][429]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.32.51:259][429]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.32.51:259][429]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.32.51:899][467]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.51:899][467]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.51:899][467]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.32.52:086][477]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.52:086][477]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.53:789][573]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.32.54:371][597]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.32.55:020][618]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.32.55:020][618]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.32.55:020][618]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.32.56:798][724]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.56:798][724]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.56:799][724]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.32.56:965][734]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.32.56:965][734]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.32.58:713][834]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.32.59:277][859]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.32.59:945][899]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.32.59:945][899]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.32.59:945][899]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.33.01:424][964]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.01:424][964]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.01:424][964]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.01:709][981]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.01:709][981]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.03:325][ 61]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.03:908][ 96]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.33.04:585][129]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.33.04:585][129]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.33.04:585][129]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.33.06:642][223]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.06:642][223]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.06:643][223]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.07:325][259]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.33.07:623][273]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.33.07:623][273]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.33.07:623][273]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.33.08:843][326]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.08:843][326]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.08:844][326]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.09:516][364]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.33.09:828][379]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.33.09:828][379]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.33.09:828][379]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.33.10:492][413]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.10:492][413]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.10:492][413]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.10:663][422]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.10:663][422]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.12:376][493]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.12:962][517]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.33.13:620][545]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.33.13:620][545]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.33.13:620][545]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.33.20:000][783]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.20:000][783]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.20:001][783]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.20:146][791]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.33.20:146][791]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.33.21:881][882]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.33.22:465][917]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.33.23:114][956]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.33.23:114][956]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.33.23:114][956]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.33.24:128][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.33.24:128][ 15]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.33.24:129][ 15]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.33.24:129][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.33.24:142][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.33.24:144][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.33.24:192][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.33.24:193][ 15]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FF88E97740), frame # 5015
+[2021.10.26-00.33.24:193][ 15]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FFFF517400), frame # 5015
+[2021.10.26-00.33.24:194][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.10.26-00.33.24:265][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.10.26-00.33.26:244][132]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.33.26:256][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.33.26:257][132]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:33:26)
+[2021.10.26-00.33.26:257][132]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.33.26:266][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009259s)
+[2021.10.26-00.33.26:267][132]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.33.26:267][132]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020005CEE000), frame # 5132
+[2021.10.26-00.33.26:267][132]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000200073B51C0), frame # 5132
+[2021.10.26-00.33.26:267][132]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2021.10.26-00.33.26:267][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010469s)
+[2021.10.26-00.33.26:282][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.10.26-00.33.26:283][132]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.33.26:283][132]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.33.26:283][132]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.33.26:283][132]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.33.26:283][132]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.33.26:283][132]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.33.26:283][132]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.33.26:283][132]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.33.26:284][132]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.33.26:284][132]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.33.26:288][132]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.33.26:288][132]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.33.26:309][132]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.33.26:310][132]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.33.26:310][132]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.33.26:310][132]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.33.26:310][132]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.33.26:322][132]LogInit: FAudioDevice initialized.
+[2021.10.26-00.33.26:329][132]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.33.26:331][132]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.33.26
+[2021.10.26-00.33.26:331][132]LogWorld: Bringing up level for play took: 0.000519
+[2021.10.26-00.33.26:331][132]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.10.26-00.33.26:332][132]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.33.26:332][132]LogTemp: Warning: AnimClear
+[2021.10.26-00.33.26:337][132]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.33.26:338][132]PIE: 에디터에서 플레이 총 시작 시간 0.082초입니다.
+[2021.10.26-00.33.28:822][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.33.28:823][277]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.33.28:823][277]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.33.28:824][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.33.28:842][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.33.28:846][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.33.28:879][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.33.28:913][277]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000200073B51C0), frame # 5277
+[2021.10.26-00.33.28:913][277]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020005CEE000), frame # 5277
+[2021.10.26-00.33.28:914][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.10.26-00.33.28:967][278]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.10.26-00.35.39:783][699]LogHotReload: New module detected: UE4Editor-New_Sample-0004.dll
+[2021.10.26-00.35.40:470][702]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.35.40:843][702]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.35.40:843][702]LogTemp: Warning: AnimClear
+[2021.10.26-00.35.40:845][702]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.35.40:850][702]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.35.40:892][702]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.35.40:896][702]Display: HotReload took  0.4s.
+[2021.10.26-00.35.46:771][964]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.35.46:789][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.35.46:789][964]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:35:46)
+[2021.10.26-00.35.46:789][964]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.35.46:799][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009479s)
+[2021.10.26-00.35.46:800][964]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.35.46:800][964]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FF95371200), frame # 5964
+[2021.10.26-00.35.46:800][964]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FF958CA840), frame # 5964
+[2021.10.26-00.35.46:800][964]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2021.10.26-00.35.46:800][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010842s)
+[2021.10.26-00.35.46:819][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.10.26-00.35.46:820][964]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.35.46:820][964]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.35.46:820][964]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.35.46:820][964]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.35.46:820][964]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.35.46:820][964]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.35.46:820][964]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.35.46:820][964]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.35.46:821][964]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.35.46:821][964]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.35.46:825][964]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.35.46:825][964]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.35.46:848][964]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.35.46:848][964]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.35.46:848][964]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.35.46:848][964]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.35.46:848][964]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.35.46:860][964]LogInit: FAudioDevice initialized.
+[2021.10.26-00.35.46:865][964]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.35.46:866][964]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.35.46
+[2021.10.26-00.35.46:866][964]LogWorld: Bringing up level for play took: 0.000557
+[2021.10.26-00.35.46:866][964]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.10.26-00.35.46:868][964]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.35.46:868][964]LogTemp: Warning: AnimClear
+[2021.10.26-00.35.46:872][964]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.35.46:873][964]PIE: 에디터에서 플레이 총 시작 시간 0.088초입니다.
+[2021.10.26-00.35.48:701][ 73]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.35.49:037][ 93]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.35.49:037][ 93]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.35.49:037][ 93]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.35.49:735][135]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.35.49:735][135]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.35.49:735][135]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.35.50:017][152]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.35.50:017][152]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.35.50:017][152]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.35.51:370][233]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.35.51:370][233]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.35.51:370][233]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.35.51:652][250]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.35.51:652][250]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.35.53:269][347]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.35.53:856][382]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.35.54:502][421]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.35.54:502][421]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.35.54:502][421]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.35.55:086][456]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.35.55:086][456]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.35.55:087][456]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.35.55:235][465]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.35.55:235][465]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.35.55:436][477]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.35.55:436][477]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.35.56:986][570]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.35.57:569][605]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.35.58:218][644]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.35.58:218][644]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.35.58:218][644]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.00:553][784]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.00:553][784]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.00:553][784]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.01:251][826]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.36.01:535][843]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.36.01:535][843]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.36.01:535][843]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.02:503][901]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.02:503][901]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.02:503][901]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.02:787][918]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.02:787][918]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.04:402][ 15]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.04:987][ 50]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.36.05:636][ 89]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.36.05:636][ 89]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.36.05:636][ 89]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.06:221][124]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.06:221][124]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.06:221][124]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.06:388][134]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.06:388][134]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.08:119][238]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.08:703][273]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.36.09:352][312]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.36.09:353][312]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.36.09:353][312]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.10:255][366]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.10:255][366]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.10:256][366]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.10:404][375]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.10:404][375]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.12:153][480]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.12:736][515]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.36.13:386][554]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.36.13:386][554]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.36.13:386][554]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.14:302][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.36.14:302][606]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.36.14:303][606]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.36.14:304][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.36.14:323][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.36.14:327][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.36.14:391][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.36.14:392][606]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FF958CA840), frame # 7606
+[2021.10.26-00.36.14:392][606]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FF95371200), frame # 7606
+[2021.10.26-00.36.14:394][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.10.26-00.36.14:460][607]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.10.26-00.36.25:280][740]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.36.25:297][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.36.25:298][740]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:36:25)
+[2021.10.26-00.36.25:335][740]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.36.25:372][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036298s)
+[2021.10.26-00.36.25:375][740]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.36.25:375][740]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FF95C6A400), frame # 7740
+[2021.10.26-00.36.25:376][740]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000200073B4F40), frame # 7740
+[2021.10.26-00.36.25:376][740]LogPlayLevel: PIE: World Init took: (0.004359s)
+[2021.10.26-00.36.25:376][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041201s)
+[2021.10.26-00.36.25:403][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.10.26-00.36.25:405][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.36.25:405][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.36.25:405][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.36.25:405][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.36.25:405][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.36.25:405][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.36.25:405][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.36.25:405][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.36.25:406][740]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.36.25:406][740]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.36.25:414][740]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.36.25:414][740]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.36.25:441][740]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.36.25:441][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.36.25:441][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.36.25:441][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.36.25:442][740]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.36.25:453][740]LogInit: FAudioDevice initialized.
+[2021.10.26-00.36.25:465][740]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.36.25:467][740]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.36.25
+[2021.10.26-00.36.25:467][740]LogWorld: Bringing up level for play took: 0.000570
+[2021.10.26-00.36.25:467][740]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.10.26-00.36.25:469][740]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.25:469][740]LogTemp: Warning: AnimClear
+[2021.10.26-00.36.25:473][740]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.36.25:474][740]PIE: 에디터에서 플레이 총 시작 시간 0.178초입니다.
+[2021.10.26-00.36.33:360][118]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.36.33:811][141]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.33:811][141]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.33:812][141]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.34:512][170]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.36.34:805][184]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.36.34:805][184]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.36.34:805][184]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.35:470][220]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.35:470][220]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.35:471][220]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.36:152][259]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.36.36:453][272]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.36.36:453][272]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.36.36:453][272]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.36:932][297]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.36:932][297]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.36:932][297]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.37:082][306]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.36.37:082][306]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.36.38:835][386]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.36.39:429][404]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.36.40:070][420]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.36.40:070][420]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.36.40:070][420]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.36.40:746][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.36.40:746][449]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.36.40:746][449]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.36.40:747][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.36.40:766][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.36.40:770][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.36.40:810][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.36.40:839][449]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000200073B4F40), frame # 8449
+[2021.10.26-00.36.40:839][449]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FF95C6A400), frame # 8449
+[2021.10.26-00.36.40:840][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.10.26-00.36.40:895][450]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.10.26-00.37.56:127][740]LogHotReload: New module detected: UE4Editor-New_Sample-0005.dll
+[2021.10.26-00.37.56:817][743]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.37.57:196][743]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.37.57:196][743]LogTemp: Warning: AnimClear
+[2021.10.26-00.37.57:198][743]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.37.57:205][743]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.37.57:246][743]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.37.57:248][743]Display: HotReload took  0.4s.
+[2021.10.26-00.38.24:079][823]LogHotReload: New module detected: UE4Editor-New_Sample-0006.dll
+[2021.10.26-00.38.25:093][827]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.38.25:468][827]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.38.25:468][827]LogTemp: Warning: AnimClear
+[2021.10.26-00.38.25:471][827]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.38.25:484][827]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.38.25:552][827]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.38.25:556][827]Display: HotReload took  0.5s.
+[2021.10.26-00.38.27:166][847]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.38.27:185][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.38.27:185][847]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:38:27)
+[2021.10.26-00.38.27:185][847]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.38.27:196][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009751s)
+[2021.10.26-00.38.27:197][847]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.38.27:197][847]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020005CEC800), frame # 8847
+[2021.10.26-00.38.27:197][847]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020006B94180), frame # 8847
+[2021.10.26-00.38.27:197][847]LogPlayLevel: PIE: World Init took: (0.001223s)
+[2021.10.26-00.38.27:197][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011097s)
+[2021.10.26-00.38.27:215][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.38.27:217][847]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.38.27:217][847]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.38.27:217][847]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.38.27:222][847]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.38.27:222][847]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.38.27:243][847]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.38.27:243][847]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.38.27:243][847]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.38.27:243][847]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.38.27:245][847]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.38.27:256][847]LogInit: FAudioDevice initialized.
+[2021.10.26-00.38.27:264][847]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.38.27:265][847]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.38.27
+[2021.10.26-00.38.27:266][847]LogWorld: Bringing up level for play took: 0.000521
+[2021.10.26-00.38.27:266][847]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.10.26-00.38.27:267][847]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.38.27:267][847]LogTemp: Warning: AnimClear
+[2021.10.26-00.38.27:271][847]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.38.27:272][847]PIE: 에디터에서 플레이 총 시작 시간 0.09초입니다.
+[2021.10.26-00.38.29:130][956]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.38.29:515][979]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.38.29:515][979]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.38.29:516][979]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.38.30:214][ 21]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.38.30:497][ 38]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.38.30:497][ 38]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.38.30:497][ 38]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.38.32:416][153]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.38.32:416][153]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.38.32:417][153]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.38.33:114][195]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.38.33:397][212]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.38.33:397][212]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.38.33:397][212]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.38.35:166][318]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.38.35:166][318]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.38.35:166][318]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.38.35:865][360]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.38.36:148][377]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.38.36:148][377]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.38.36:148][377]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.38.37:881][481]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.38.37:881][481]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.38.37:882][481]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.38.38:066][492]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.38.38:066][492]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.38.39:781][595]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.38.40:364][630]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.38.41:015][669]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.38.41:015][669]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.38.41:015][669]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.38.46:183][979]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.38.46:183][979]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.38.46:183][979]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.38.46:383][991]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.38.46:383][991]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.38.48:081][ 93]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.38.48:666][128]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.38.49:315][167]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.38.49:315][167]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.38.49:316][167]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.38.53:548][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.38.53:548][418]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.38.53:548][418]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.38.53:549][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.38.53:562][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.38.53:567][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.38.53:635][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.38.53:636][418]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020006B94180), frame # 10418
+[2021.10.26-00.38.53:636][418]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020005CEC800), frame # 10418
+[2021.10.26-00.38.53:638][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.10.26-00.38.53:699][419]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.10.26-00.39.35:141][618]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.39.35:189][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.39.35:189][618]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:39:35)
+[2021.10.26-00.39.35:189][618]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.39.35:222][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033119s)
+[2021.10.26-00.39.35:226][618]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.39.35:226][618]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000200070C1A00), frame # 10618
+[2021.10.26-00.39.35:226][618]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020006F03240), frame # 10618
+[2021.10.26-00.39.35:227][618]LogPlayLevel: PIE: World Init took: (0.004147s)
+[2021.10.26-00.39.35:227][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037767s)
+[2021.10.26-00.39.35:262][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.26-00.39.35:264][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.39.35:264][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.39.35:264][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.39.35:264][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.39.35:264][618]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.39.35:264][618]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.39.35:264][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.39.35:264][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.39.35:265][618]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.39.35:265][618]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.39.35:269][618]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.39.35:270][618]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.39.35:292][618]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.39.35:292][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.39.35:292][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.39.35:292][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.39.35:292][618]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.39.35:305][618]LogInit: FAudioDevice initialized.
+[2021.10.26-00.39.35:309][618]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.39.35:311][618]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.39.35
+[2021.10.26-00.39.35:311][618]LogWorld: Bringing up level for play took: 0.000529
+[2021.10.26-00.39.35:311][618]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.10.26-00.39.35:312][618]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.39.35:312][618]LogTemp: Warning: AnimClear
+[2021.10.26-00.39.35:317][618]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.39.35:317][618]PIE: 에디터에서 플레이 총 시작 시간 0.134초입니다.
+[2021.10.26-00.39.36:362][677]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.39.36:780][702]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.39.36:780][702]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.39.36:780][702]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.39.37:479][744]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.39.37:762][761]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.39.37:762][761]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.39.37:762][761]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.39.39:832][885]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.39.39:832][885]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.39.39:832][885]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.39.40:031][897]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.39.40:031][897]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.39.41:728][999]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.39.42:311][ 34]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.39.42:961][ 73]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.39.42:961][ 73]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.39.42:961][ 73]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.39.49:117][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.39.49:117][440]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.39.49:118][440]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.39.49:118][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.39.49:129][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.39.49:131][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.39.49:160][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.39.49:202][440]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020006F03240), frame # 11440
+[2021.10.26-00.39.49:202][440]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000200070C1A00), frame # 11440
+[2021.10.26-00.39.49:204][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.10.26-00.39.49:292][441]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.10.26-00.42.13:597][932]LogHotReload: New module detected: UE4Editor-New_Sample-0007.dll
+[2021.10.26-00.42.14:283][935]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.42.14:333][935]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.42.14:333][935]LogTemp: Warning: AnimClear
+[2021.10.26-00.42.14:337][935]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.42.14:345][935]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.42.14:400][935]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.42.14:403][935]Display: HotReload took  0.1s.
+[2021.10.26-00.42.16:276][989]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.42.16:293][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.42.16:293][989]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:42:16)
+[2021.10.26-00.42.16:293][989]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.42.16:302][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009252s)
+[2021.10.26-00.42.16:303][989]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.42.16:303][989]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FF95796000), frame # 11989
+[2021.10.26-00.42.16:303][989]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000200062C5080), frame # 11989
+[2021.10.26-00.42.16:303][989]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2021.10.26-00.42.16:303][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010653s)
+[2021.10.26-00.42.16:321][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.42.16:323][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.42.16:323][989]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.42.16:323][989]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.42.16:328][989]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.42.16:328][989]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.42.16:352][989]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.42.16:352][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.42.16:352][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.42.16:352][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.42.16:353][989]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.42.16:365][989]LogInit: FAudioDevice initialized.
+[2021.10.26-00.42.16:377][989]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.42.16:379][989]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.42.16
+[2021.10.26-00.42.16:379][989]LogWorld: Bringing up level for play took: 0.000777
+[2021.10.26-00.42.16:379][989]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.10.26-00.42.16:381][989]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.42.16:381][989]LogTemp: Warning: AnimClear
+[2021.10.26-00.42.16:389][989]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.42.16:390][989]PIE: 에디터에서 플레이 총 시작 시간 0.101초입니다.
+[2021.10.26-00.42.18:904][137]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.42.19:305][161]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.42.19:305][161]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.42.19:306][161]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.42.20:003][203]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.42.20:288][220]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.42.20:288][220]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.42.20:288][220]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.42.22:022][324]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.42.22:022][324]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.42.22:023][324]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.42.22:204][335]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.42.22:205][335]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.42.22:355][344]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.42.22:355][344]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.42.23:171][393]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.42.23:171][393]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.42.23:606][419]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.42.23:606][419]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.42.23:921][438]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.42.24:506][473]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.42.25:154][512]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.42.25:154][512]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.42.25:154][512]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.42.29:032][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.42.29:032][742]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.42.29:033][742]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.42.29:033][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.42.29:049][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.42.29:053][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.42.29:111][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.42.29:112][742]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000200062C5080), frame # 12742
+[2021.10.26-00.42.29:112][742]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FF95796000), frame # 12742
+[2021.10.26-00.42.29:114][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.10.26-00.42.29:156][743]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.10.26-00.43.07:104][917]LogHotReload: New module detected: UE4Editor-New_Sample-0008.dll
+[2021.10.26-00.43.08:118][921]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.43.08:503][921]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.43.08:503][921]LogTemp: Warning: AnimClear
+[2021.10.26-00.43.08:510][921]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0014 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.43.08:528][921]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.43.08:605][921]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.43.08:609][921]Display: HotReload took  0.5s.
+[2021.10.26-00.43.11:972][  5]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.43.11:986][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.43.11:986][  5]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:43:11)
+[2021.10.26-00.43.11:986][  5]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.43.11:996][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009350s)
+[2021.10.26-00.43.11:997][  5]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.43.11:997][  5]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FF89C36400), frame # 13005
+[2021.10.26-00.43.11:997][  5]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FF958E5080), frame # 13005
+[2021.10.26-00.43.11:997][  5]LogPlayLevel: PIE: World Init took: (0.001696s)
+[2021.10.26-00.43.11:997][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011184s)
+[2021.10.26-00.43.12:012][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.10.26-00.43.12:013][  5]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.43.12:013][  5]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.43.12:013][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.43.12:013][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.43.12:013][  5]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.43.12:013][  5]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.43.12:013][  5]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.43.12:013][  5]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.43.12:014][  5]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.43.12:014][  5]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.43.12:018][  5]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.43.12:018][  5]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.43.12:040][  5]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.43.12:040][  5]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.43.12:040][  5]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.43.12:040][  5]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.43.12:040][  5]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.43.12:052][  5]LogInit: FAudioDevice initialized.
+[2021.10.26-00.43.12:058][  5]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.43.12:059][  5]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.43.12
+[2021.10.26-00.43.12:059][  5]LogWorld: Bringing up level for play took: 0.000522
+[2021.10.26-00.43.12:059][  5]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.10.26-00.43.12:061][  5]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.43.12:061][  5]LogTemp: Warning: AnimClear
+[2021.10.26-00.43.12:065][  5]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.43.12:066][  5]PIE: 에디터에서 플레이 총 시작 시간 0.084초입니다.
+[2021.10.26-00.43.12:915][ 54]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.43.13:248][ 74]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.43.13:248][ 74]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.43.13:248][ 74]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.43.13:948][116]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.43.14:231][133]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.43.14:231][133]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.43.14:231][133]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.43.16:135][247]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.43.16:135][247]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.43.16:136][247]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.43.16:832][289]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.43.17:115][306]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.43.17:115][306]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.43.17:115][306]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.43.17:882][352]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.43.17:882][352]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.43.17:883][352]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.43.18:065][363]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.43.18:065][363]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.43.19:783][466]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.43.20:385][501]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.43.21:023][540]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.43.21:023][540]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.43.21:023][540]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.43.26:541][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.43.26:541][869]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.43.26:541][869]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.43.26:542][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.43.26:560][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.43.26:563][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.43.26:634][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.43.26:636][869]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FF958E5080), frame # 13869
+[2021.10.26-00.43.26:636][869]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FF89C36400), frame # 13869
+[2021.10.26-00.43.26:637][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.10.26-00.43.26:699][870]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.10.26-00.44.02:592][ 51]LogHotReload: New module detected: UE4Editor-New_Sample-0009.dll
+[2021.10.26-00.44.03:613][ 55]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.44.03:994][ 55]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.44.03:994][ 55]LogTemp: Warning: AnimClear
+[2021.10.26-00.44.04:001][ 55]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.44.04:013][ 55]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.44.04:060][ 55]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.44.04:065][ 55]Display: HotReload took  0.5s.
+[2021.10.26-00.44.09:640][309]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.44.09:659][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.44.09:659][309]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:44:09)
+[2021.10.26-00.44.09:659][309]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.44.09:671][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010899s)
+[2021.10.26-00.44.09:672][309]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.44.09:672][309]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000200071D4E00), frame # 14309
+[2021.10.26-00.44.09:672][309]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FF8A8FD080), frame # 14309
+[2021.10.26-00.44.09:672][309]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2021.10.26-00.44.09:672][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012090s)
+[2021.10.26-00.44.09:689][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.44.09:692][309]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.44.09:692][309]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.44.09:692][309]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.44.09:697][309]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.44.09:697][309]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.44.09:717][309]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.44.09:717][309]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.44.09:717][309]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.44.09:717][309]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.44.09:717][309]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.44.09:718][309]LogInit: FAudioDevice initialized.
+[2021.10.26-00.44.09:733][309]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.44.09:735][309]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.44.09
+[2021.10.26-00.44.09:735][309]LogWorld: Bringing up level for play took: 0.000540
+[2021.10.26-00.44.09:735][309]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.10.26-00.44.09:736][309]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.44.09:736][309]LogTemp: Warning: AnimClear
+[2021.10.26-00.44.09:741][309]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.44.09:741][309]PIE: 에디터에서 플레이 총 시작 시간 0.087초입니다.
+[2021.10.26-00.44.10:395][347]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.44.10:846][374]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.44.10:846][374]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.44.10:846][374]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.44.11:365][405]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.44.11:366][405]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.44.11:547][416]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.44.11:547][416]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.44.12:748][488]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.44.13:329][523]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.44.13:980][562]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.44.13:980][562]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.44.13:980][562]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.44.18:447][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.44.18:447][828]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.44.18:447][828]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.44.18:448][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.44.18:460][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.44.18:462][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.44.18:503][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.44.18:503][828]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FF8A8FD080), frame # 14828
+[2021.10.26-00.44.18:503][828]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000200071D4E00), frame # 14828
+[2021.10.26-00.44.18:505][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.10.26-00.44.18:561][829]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.10.26-00.44.19:698][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.10.26-00.44.19:755][885]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/ThirdPersonExampleMap72E0C53A41A01DA42BFD76B1FB4E93F2.tmp' to '../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.10.26-00.44.25:426][885]LogSavePackage: Moving '../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Saved/ThirdPersonExampleMap_BuiltData0A1B7AED4867D3CB651C5EB3035710C6.tmp' to '../../../../../../Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.10.26-00.44.25:479][885]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2021.10.26-00.44.25:479][885]LogContentValidation: Display: World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap 유효성 검사
+[2021.10.26-00.44.25:479][885]LogContentValidation: Display: MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData 유효성 검사
+[2021.10.26-00.54.15:340][776]LogHotReload: New module detected: UE4Editor-New_Sample-0010.dll
+[2021.10.26-00.54.16:045][779]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.54.16:428][779]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.16:428][779]LogTemp: Warning: AnimClear
+[2021.10.26-00.54.16:434][779]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0015 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.54.16:450][779]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.54.16:505][779]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.54.16:509][779]Display: HotReload took  0.5s.
+[2021.10.26-00.54.18:542][811]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.54.18:563][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.54.18:563][811]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:54:18)
+[2021.10.26-00.54.18:563][811]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.54.18:574][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010617s)
+[2021.10.26-00.54.18:575][811]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.54.18:575][811]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020005CEEC00), frame # 16811
+[2021.10.26-00.54.18:575][811]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000200061F5080), frame # 16811
+[2021.10.26-00.54.18:575][811]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2021.10.26-00.54.18:575][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012026s)
+[2021.10.26-00.54.18:587][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.10.26-00.54.18:596][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.54.18:596][811]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.54.18:596][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.54.18:596][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.54.18:596][811]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.54.18:596][811]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.54.18:596][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.54.18:597][811]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.54.18:597][811]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.54.18:597][811]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.54.18:602][811]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.54.18:602][811]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.54.18:626][811]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.54.18:626][811]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.54.18:626][811]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.54.18:626][811]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.54.18:627][811]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.54.18:627][811]LogInit: FAudioDevice initialized.
+[2021.10.26-00.54.18:643][811]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.54.18:644][811]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.54.18
+[2021.10.26-00.54.18:644][811]LogWorld: Bringing up level for play took: 0.000568
+[2021.10.26-00.54.18:644][811]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.10.26-00.54.18:646][811]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.18:646][811]LogTemp: Warning: AnimClear
+[2021.10.26-00.54.18:650][811]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.54.18:651][811]PIE: 에디터에서 플레이 총 시작 시간 0.093초입니다.
+[2021.10.26-00.54.19:579][866]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.54.19:964][889]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.19:965][889]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.19:965][889]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.20:663][931]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.20:946][948]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.20:946][948]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.20:946][948]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.22:565][ 45]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.22:565][ 45]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.22:566][ 45]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.23:263][ 87]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.23:546][104]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.23:546][104]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.23:547][104]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.25:032][193]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.25:032][193]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.25:033][193]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.25:730][235]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.26:016][252]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.26:016][252]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.26:016][252]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.26:365][273]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.26:366][273]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.26:366][273]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.26:547][284]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.26:547][284]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.26:700][293]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.26:700][293]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.28:264][387]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.28:847][422]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.29:498][461]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.29:498][461]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.29:498][461]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.30:364][513]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.30:364][513]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.30:364][513]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.30:580][526]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.30:580][526]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.32:264][627]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.32:847][662]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.33:497][701]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.33:497][701]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.33:497][701]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.34:382][754]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.34:382][754]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.34:383][754]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.35:081][796]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.35:365][813]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.35:365][813]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.35:365][813]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.35:633][829]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.35:633][829]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.35:634][829]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.35:797][839]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.35:797][839]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.37:530][943]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.38:114][978]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.38:764][ 17]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.38:764][ 17]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.38:764][ 17]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.39:598][ 67]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.39:598][ 67]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.39:600][ 67]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.39:781][ 78]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.39:781][ 78]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.41:497][181]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.42:081][216]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.42:731][255]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.42:731][255]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.42:731][255]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.44:466][359]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.44:466][359]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.44:467][359]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.44:615][368]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.44:615][368]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.46:365][473]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.46:947][508]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.47:598][547]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.47:598][547]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.47:598][547]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.48:812][619]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.48:813][619]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.48:814][619]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.49:491][660]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.49:792][678]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.49:792][678]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.49:792][678]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.49:877][683]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.49:877][683]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.49:878][683]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.50:574][725]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.50:858][742]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.50:858][742]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.50:858][742]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.51:728][794]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.51:728][794]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.51:729][794]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.51:892][804]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.51:892][804]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.53:625][908]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.54:209][943]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.54:858][982]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.54:858][982]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.54:858][982]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.56:093][ 56]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.56:093][ 56]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.56:094][ 56]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.56:791][ 98]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.54.57:075][115]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.54.57:075][115]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.54.57:075][115]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.54.58:761][216]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.54.58:761][216]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.54.58:762][216]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.54.59:288][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.54.59:288][245]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.54.59:289][245]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.54.59:289][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.54.59:307][245]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.54.59:311][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.54.59:361][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.54.59:362][245]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000200061F5080), frame # 19245
+[2021.10.26-00.54.59:362][245]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020005CEEC00), frame # 19245
+[2021.10.26-00.54.59:363][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.10.26-00.54.59:404][246]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.10.26-00.55.03:536][301]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.55.03:582][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.55.03:583][301]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:55:03)
+[2021.10.26-00.55.03:583][301]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.55.03:607][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024482s)
+[2021.10.26-00.55.03:610][301]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.55.03:610][301]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020007564400), frame # 19301
+[2021.10.26-00.55.03:610][301]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000200061F4400), frame # 19301
+[2021.10.26-00.55.03:611][301]LogPlayLevel: PIE: World Init took: (0.004339s)
+[2021.10.26-00.55.03:611][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029322s)
+[2021.10.26-00.55.03:649][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.10.26-00.55.03:651][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.55.03:651][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.55.03:651][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.55.03:651][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.55.03:651][301]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.55.03:651][301]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.55.03:651][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.55.03:651][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.55.03:652][301]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.55.03:652][301]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.55.03:663][301]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.55.03:663][301]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.55.03:686][301]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.55.03:687][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.55.03:687][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.55.03:687][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.55.03:687][301]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.55.03:699][301]LogInit: FAudioDevice initialized.
+[2021.10.26-00.55.03:705][301]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.55.03:706][301]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.55.03
+[2021.10.26-00.55.03:706][301]LogWorld: Bringing up level for play took: 0.000526
+[2021.10.26-00.55.03:706][301]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.10.26-00.55.03:708][301]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.03:708][301]LogTemp: Warning: AnimClear
+[2021.10.26-00.55.03:712][301]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.55.03:713][301]PIE: 에디터에서 플레이 총 시작 시간 0.135초입니다.
+[2021.10.26-00.55.10:489][645]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.55.11:586][677]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.11:586][677]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.11:587][677]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.12:257][699]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.12:587][706]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.12:587][706]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.12:587][706]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.12:939][715]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.12:939][715]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.12:940][715]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.13:596][748]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.13:916][758]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.13:917][758]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.13:917][758]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.17:352][905]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.17:353][905]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.17:354][905]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.18:035][944]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.18:320][961]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.18:320][961]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.18:320][961]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.19:550][ 18]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.19:550][ 18]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.19:550][ 18]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.19:696][ 25]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.19:696][ 25]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.21:435][ 96]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.22:000][112]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.22:656][148]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.22:656][148]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.22:656][148]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.23:992][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.55.23:992][205]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.55.23:992][205]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.55.23:993][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.55.24:011][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.55.24:015][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.55.24:045][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.55.24:074][205]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000200061F4400), frame # 20205
+[2021.10.26-00.55.24:074][205]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020007564400), frame # 20205
+[2021.10.26-00.55.24:075][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.10.26-00.55.24:188][206]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.10.26-00.55.39:731][445]LogHotReload: New module detected: UE4Editor-New_Sample-0011.dll
+[2021.10.26-00.55.40:748][449]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.55.41:108][449]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.41:108][449]LogTemp: Warning: AnimClear
+[2021.10.26-00.55.41:112][449]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0008 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.55.41:125][449]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.55.41:169][449]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.55.41:172][449]Display: HotReload took  0.4s.
+[2021.10.26-00.55.42:792][488]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.55.42:807][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.55.42:807][488]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:55:42)
+[2021.10.26-00.55.42:807][488]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.55.42:816][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009130s)
+[2021.10.26-00.55.42:817][488]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.55.42:817][488]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FFF7A04400), frame # 20488
+[2021.10.26-00.55.42:817][488]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000200061F4A40), frame # 20488
+[2021.10.26-00.55.42:818][488]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2021.10.26-00.55.42:818][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010510s)
+[2021.10.26-00.55.42:837][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.10.26-00.55.42:839][488]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.55.42:839][488]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.55.42:839][488]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.55.42:839][488]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.55.42:839][488]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.55.42:839][488]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.55.42:840][488]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.55.42:840][488]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.55.42:840][488]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.55.42:840][488]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.55.42:844][488]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.55.42:844][488]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.55.42:866][488]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.55.42:866][488]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.55.42:866][488]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.55.42:866][488]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.55.42:866][488]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.55.42:878][488]LogInit: FAudioDevice initialized.
+[2021.10.26-00.55.42:885][488]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.55.42:887][488]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.55.42
+[2021.10.26-00.55.42:887][488]LogWorld: Bringing up level for play took: 0.000537
+[2021.10.26-00.55.42:887][488]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.10.26-00.55.42:889][488]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.42:889][488]LogTemp: Warning: AnimClear
+[2021.10.26-00.55.42:894][488]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.55.42:894][488]PIE: 에디터에서 플레이 총 시작 시간 0.091초입니다.
+[2021.10.26-00.55.43:624][531]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.55.44:026][555]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.44:026][555]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.44:027][555]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.44:723][597]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.45:007][614]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.45:007][614]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.45:007][614]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.46:391][697]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.46:391][697]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.46:392][697]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.46:690][715]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.46:690][715]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.46:844][724]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.46:844][724]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.48:290][811]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.48:874][846]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.49:524][885]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.49:524][885]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.49:524][885]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.53:259][109]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.53:259][109]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.53:260][109]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.53:957][151]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.54:241][168]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.54:241][168]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.54:241][168]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.55:060][217]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.55:060][217]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.55:061][217]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.55:757][259]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.56:041][276]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.56:041][276]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.56:041][276]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.55.56:127][281]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.56:127][281]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.56:128][281]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.56:275][290]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.55.56:275][290]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.55.58:024][395]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.55.58:607][430]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.55.59:258][469]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.55.59:258][469]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.55.59:258][469]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.56.00:418][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.56.00:418][537]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.56.00:418][537]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.56.00:418][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.56.00:432][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.56.00:436][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.56.00:501][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.56.00:502][537]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000200061F4A40), frame # 21537
+[2021.10.26-00.56.00:502][537]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FFF7A04400), frame # 21537
+[2021.10.26-00.56.00:504][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.10.26-00.56.00:546][538]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.10.26-00.56.16:986][739]Candidate modules for hot reload:
+[2021.10.26-00.56.16:986][739]  New_Sample
+[2021.10.26-00.56.16:987][739]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=New_Sample,7639 New_SampleEditor Win64 Development -Project="C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/New_Sample.uproject" "C:/Users/wonji/Desktop/Unreal_Projects/SelfProject_UnAct/New_Sample/New_Sample.uproject"  -IgnoreJunk]
+[2021.10.26-00.56.16:992][739]Warning: Starting HotReload took  0.0s.
+[2021.10.26-00.56.19:035][860]CompilerResultsLog: New page: 컴파일 - 2021. 10. 26. 오후 6:56:19
+[2021.10.26-00.56.19:036][860]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\wonji\Desktop\Unreal_Projects\SelfProject_UnAct).
+[2021.10.26-00.56.19:036][860]CompilerResultsLog: Building New_SampleEditor...
+[2021.10.26-00.56.19:036][860]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.10.26-00.56.19:036][860]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.10.26-00.56.19:036][860]CompilerResultsLog:   [1/3] UE4Editor-New_Sample-7639.lib
+[2021.10.26-00.56.19:036][860]CompilerResultsLog:      C:\Users\wonji\Desktop\Unreal_Projects\SelfProject_UnAct\New_Sample\Intermediate\Build\Win64\UE4Editor\Development\New_Sample\UE4Editor-New_Sample-7639.lib ???̺귯?? ?? C:\Users\wonji\Desktop\Unreal_Projects\SelfProject_UnAct\New_Sample\Intermediate\Build\Win64\UE4Editor\Development\New_Sample\UE4Editor-New_Sample-7639.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.10.26-00.56.19:036][860]CompilerResultsLog:   [2/3] UE4Editor-New_Sample-7639.dll
+[2021.10.26-00.56.19:036][860]CompilerResultsLog:      C:\Users\wonji\Desktop\Unreal_Projects\SelfProject_UnAct\New_Sample\Intermediate\Build\Win64\UE4Editor\Development\New_Sample\UE4Editor-New_Sample-7639.suppressed.lib ???̺귯?? ?? C:\Users\wonji\Desktop\Unreal_Projects\SelfProject_UnAct\New_Sample\Intermediate\Build\Win64\UE4Editor\Development\New_Sample\UE4Editor-New_Sample-7639.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.10.26-00.56.19:036][860]CompilerResultsLog:   [3/3] New_SampleEditor.target
+[2021.10.26-00.56.19:036][860]CompilerResultsLog: Total time in Parallel executor: 1.06 seconds
+[2021.10.26-00.56.19:036][860]CompilerResultsLog: Total execution time: 1.93 seconds
+[2021.10.26-00.56.19:036][860]LogMainFrame: MainFrame: Module compiling took 2.054 seconds
+[2021.10.26-00.56.19:433][860]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.56.19:433][860]LogTemp: Warning: AnimClear
+[2021.10.26-00.56.19:435][860]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.56.19:440][860]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.56.19:478][860]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.56.19:478][860]Display: HotReload took  2.5s.
+[2021.10.26-00.56.19:503][860]LogSlate: Took 0.014183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.10.26-00.56.19:503][860]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2021.10.26-00.56.19:514][860]LogSlate: Took 0.009716 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.10.26-00.56.21:200][961]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.56.21:215][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.56.21:215][961]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:56:21)
+[2021.10.26-00.56.21:215][961]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.56.21:225][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009877s)
+[2021.10.26-00.56.21:226][961]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.56.21:226][961]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020032D74200), frame # 21961
+[2021.10.26-00.56.21:226][961]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002003AA13380), frame # 21961
+[2021.10.26-00.56.21:226][961]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2021.10.26-00.56.21:226][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011184s)
+[2021.10.26-00.56.21:243][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.10.26-00.56.21:245][961]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.56.21:245][961]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.56.21:245][961]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.56.21:245][961]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.56.21:245][961]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.56.21:245][961]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.56.21:245][961]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.56.21:245][961]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.56.21:246][961]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.56.21:246][961]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.56.21:251][961]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.56.21:251][961]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.56.21:277][961]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.56.21:277][961]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.56.21:277][961]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.56.21:277][961]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.56.21:278][961]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.56.21:295][961]LogInit: FAudioDevice initialized.
+[2021.10.26-00.56.21:305][961]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.56.21:305][961]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.56.21
+[2021.10.26-00.56.21:305][961]LogWorld: Bringing up level for play took: 0.000539
+[2021.10.26-00.56.21:307][961]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.10.26-00.56.21:307][961]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.56.21:307][961]LogTemp: Warning: AnimClear
+[2021.10.26-00.56.21:312][961]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.56.21:312][961]PIE: 에디터에서 플레이 총 시작 시간 0.102초입니다.
+[2021.10.26-00.56.21:993][  1]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.56.22:496][ 31]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.56.22:496][ 31]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.56.22:497][ 31]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.56.23:193][ 73]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.56.23:478][ 90]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.56.23:478][ 90]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.56.23:478][ 90]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.56.24:044][124]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.56.24:044][124]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.56.24:045][124]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.56.24:194][133]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.56.24:194][133]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.56.25:944][238]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.56.26:527][273]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.56.27:178][312]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.56.27:178][312]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.56.27:178][312]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.56.27:903][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.56.27:904][352]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.56.27:904][352]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.56.27:905][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.56.27:926][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.56.27:929][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.56.28:000][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.56.28:001][352]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002003AA13380), frame # 22352
+[2021.10.26-00.56.28:001][352]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020032D74200), frame # 22352
+[2021.10.26-00.56.28:003][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.10.26-00.56.28:054][353]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.10.26-00.57.20:184][589]LogHotReload: New module detected: UE4Editor-New_Sample-0014.dll
+[2021.10.26-00.57.21:197][593]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.57.21:576][593]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.57.21:576][593]LogTemp: Warning: AnimClear
+[2021.10.26-00.57.21:583][593]LogContentBrowser: Native class hierarchy updated for 'New_Sample' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2021.10.26-00.57.21:604][593]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.10.26-00.57.21:684][593]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3450 classes and 830 folders.
+[2021.10.26-00.57.21:687][593]Display: HotReload took  0.5s.
+[2021.10.26-00.57.26:838][639]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.10.26-00.57.26:853][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.26-00.57.26:853][639]PIE: New page: PIE 세션: ThirdPersonExampleMap (2021. 10. 26. 오후 6:57:26)
+[2021.10.26-00.57.26:853][639]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.57.26:862][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008991s)
+[2021.10.26-00.57.26:863][639]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.26-00.57.26:863][639]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FFF7AD3A00), frame # 22639
+[2021.10.26-00.57.26:863][639]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020006165080), frame # 22639
+[2021.10.26-00.57.26:863][639]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2021.10.26-00.57.26:863][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010330s)
+[2021.10.26-00.57.26:879][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.26-00.57.26:881][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.26-00.57.26:881][639]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.26-00.57.26:881][639]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.26-00.57.26:886][639]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.26-00.57.26:886][639]LogAudioMixer: Display: 1: FrontRight
+[2021.10.26-00.57.26:908][639]LogAudioMixer: Display: Using Audio Device Speakers(Realtek(R) Audio)
+[2021.10.26-00.57.26:908][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.26-00.57.26:908][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.26-00.57.26:908][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.26-00.57.26:908][639]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.26-00.57.26:909][639]LogInit: FAudioDevice initialized.
+[2021.10.26-00.57.26:924][639]LogLoad: Game class is 'New_SampleGameMode'
+[2021.10.26-00.57.26:926][639]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.10.26-09.57.26
+[2021.10.26-00.57.26:926][639]LogWorld: Bringing up level for play took: 0.000561
+[2021.10.26-00.57.26:926][639]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.10.26-00.57.26:927][639]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.57.26:927][639]LogTemp: Warning: AnimClear
+[2021.10.26-00.57.26:932][639]PIE: 서버가 로그인했습니다.
+[2021.10.26-00.57.26:932][639]PIE: 에디터에서 플레이 총 시작 시간 0.084초입니다.
+[2021.10.26-00.57.27:743][686]LogTemp: Warning: ArmedOnChanging - else
+[2021.10.26-00.57.28:112][708]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.57.28:112][708]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.57.28:112][708]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.57.28:809][750]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.57.29:092][767]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.57.29:092][767]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.57.29:092][767]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.57.29:860][813]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.57.29:860][813]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.57.29:861][813]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.57.30:558][855]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.57.30:844][872]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.57.30:844][872]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.57.30:844][872]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.57.31:812][930]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.57.31:812][930]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.57.31:812][930]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.57.32:012][942]LogTemp: Warning: Player Move input Disable
+[2021.10.26-00.57.32:012][942]LogTemp: Warning: Attack Input Clear
+[2021.10.26-00.57.33:709][ 44]LogTemp: Warning: Attack Shoot Check AnimInstance Script
+[2021.10.26-00.57.34:292][ 79]LogTemp: Warning: Attack Hit Check AnimInstance Script
+[2021.10.26-00.57.34:942][118]LogTemp: Warning: Attack Montage Ended Character Script
+[2021.10.26-00.57.34:942][118]LogTemp: Warning: Player Move input Enable
+[2021.10.26-00.57.34:942][118]LogTemp: Warning: AttackEndComboState Method
+[2021.10.26-00.57.41:407][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.57.41:407][504]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.10.26-00.57.41:407][504]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.26-00.57.41:407][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.57.41:425][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.26-00.57.41:428][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.26-00.57.41:497][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.26-00.57.41:498][504]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020006165080), frame # 23504
+[2021.10.26-00.57.41:498][504]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FFF7AD3A00), frame # 23504
+[2021.10.26-00.57.41:499][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.10.26-00.57.41:541][505]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.10.26-00.58.36:196][921]LogHotReload: New module detected: UE4Editor-New_Sample-0015.dll
+[2021.10.26-00.58.36:892][924]LogHotReload: Starting Hot-Reload from IDE
+[2021.10.26-00.58.37:269][924]LogTemp: Warning: AttackEndComboState Method
